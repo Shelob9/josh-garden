@@ -1,6 +1,6 @@
 ---
 title: Interintellect - Embrace Your Inner Cyborg: Boundaries between Tools and Selves
-slug: ii-5
+slug: ii-5-inner-cyborg
 ---
 
 **These are notes from an [[interintellect]] salon.**
