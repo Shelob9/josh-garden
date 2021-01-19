@@ -1,0 +1,79 @@
+---
+title: Meadow
+slug: meadow
+---
+
+Networked second mind(s) app.
+
+## Why
+
+When I share my words about something on a social media platform, on a tool I use at work, they are still my words. Also, they are the creation of so many people and systems that are beyond me. When I see people saying web3 should allow us to own the product of our own labor, I agree. I don't think this means monetizing ourseleves at a Fortnite-like level, as I don't want to optimize myself for the kind of engagment that leads to whatever the tokenized version of lots of in-app purchases. But I do want what I learn about what I do for a living and other things I enjoy thingking about, resarching an practicing to be accesible to me and others, especially those who contributed to my understanding of the subject.
+
+## Main Features For v1
+
+A "~" indicates a "must have" in the [ShapeUp](https://basecamp.com/shapeup) methodology
+
+
+- ~ Clippings: Link sharing with support for native share api.
+- Leaves: Private written notes with embeded clippings.
+  - Probably not needed.
+- ~ Bubbles: Git-backed [foam bubbles](https://foambubble.github.io/)
+  - Editor with clipping embeded.
+- Graph of relationship between all content.
+
+### Other Early Ideas
+
+- Replace PWA with Electron app.
+- [[wordpress]] plugin that makes clippings and bubbles reusable blocks.
+
+## API Server
+
+> [Source](https://github.com/shelob9/meadow)
+>
+> [URL](https://meadow.joshpress.net)
+
+### Overview
+
+- [[laravel]]
+- Deployed on [Render](https://render.com)
+- VueJS front-end (Not needed, will go away)
+
+After trying for awhile to over-engieer this app using Node on the backend, I decided to simplify things. I am using Laravel for CRUD, REST API and authentication.
+
+Laravel and VueJS also gave me a fast way to prototype UI, and think about how this app could work.
+
+Currently what is deployed is an API for two data types and that basic UI. The app is installable -- I used Laravel PWA and a custom [[service-workers]] I wrote. The service worker does provide basic caching, but it's primary purpose is native share withe share API.
+
+## Halloween
+
+First useful front-end client for meadow.
+
+> See: [[meadow-halloween]]
+
+## Foam
+
+> [Source](https://github.com/shelob9/meadow-foam)
+>
+> [URL](shelob9.github.io/meadow-foam/)
+
+This site, for now. [[foam-site]]
+
+Could add clippings, leaves, etc of meadow to the [foam graph](https://github.com/foambubble/foam/blob/master/packages/foam-core/src/note-graph.ts) and add interlinking.
+
+Second Brain + Link clipping app is a nice MVP for meadow, right? Does that rule even apply here?
+
+## Link Share/ Clippings With Quotebacks (MVP) + Clippings Plug-in For Gutenberg (MVP+1)
+
+Use existing meadow app for clipping share. Maybe keep levaes as small private notes. Link shares shown publicly with quote backs.js
+
+Create WordPress plug-in/lib for quotebacks.js
+
+Create clippings WordPress plug-in that makes all clippings into reusable blocks, rendered with quotebacks.js
+
+## Incremintal Path
+
+- [[meadow-birddog.md]]
+- Clipper
+- Minimal Foam/Roam/WordPress integration
+- Social game
+- Meadow Garden
