@@ -14,13 +14,16 @@ This bubble -- I use [[foam]] -- is mainly about making open source digital gard
 
 >[People who spend a lot of time exploring these subcultures feel like they can see into the future, and for good reason. What happens online often shows up in the headlines weeks, months, or even years later. The internet has become the petri dish of culture — the soil in which new movements and novel conversations find root.](https://aaronzlewis.com/2020/07/07/the-garden-of-forking-memes)
 
-
 ## Building Your Own Digital Garden Site
 
 If you look through this [Twitter Thread of digital gardens](https://twitter.com/Mappletons/status/1250532315459194880?s=09
 ), you may notice most of them are built with a [[static-stite-generator]], most likely [[gatsby]]. I have not found great no-code tools for it yet, besides a public Roam, which is a great solution.
 
 - [Notes on building digital garden sites](https://jborichevskiy.com/posts/patch-notes-v4/)
+
+### Digital Garden Builder
+
+I am working on a no-code [digital garden builder](http://docs.digitalgardenbuilder.app/).
 
 ### Gatsby Themes
 
